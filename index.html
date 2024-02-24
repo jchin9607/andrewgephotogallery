@@ -1,0 +1,193 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <link href="https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100..900;1,100..900&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css" integrity="sha512-DTOQO9RWCH3ppGqcWaEA1BIZOC6xxalwEsw9c2QQeAIftl+Vegovlnee1c9QX4TctnWMn13TZye+giMm8e2LwA==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <link rel="stylesheet" href="styles.css">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <div class="wrapper" id="portfolio">
+        <header>
+            <h1>Andrew Ge.</h1>
+            <p>Photographer</p>
+            <nav>
+                <a href="#portfolio">Portfolio</a>
+                <a href="#about">About</a>
+                <!-- <a href="projects">Projects</a> -->
+                <!-- <a href="#experience">Experience</a> -->
+            </nav>
+            <nav class="mobile">
+                <a href="#portfolio">Portfolio</a>
+                <a href="#about">About</a>
+                <!-- <a href="projects">Projects</a> -->
+                <!-- <a href="#experience">Experience</a> -->
+                <div class="mobilesocials">
+                    <a href="https://instagram.com/andrewgephoto" target="_blank"><i class="fa-brands fa-instagram"></i></a>
+                    <a href="https://l.instagram.com/?u=https%3A%2F%2Fdrive.google.com%2Fdrive%2Ffolders%2F15vSV-pzunE8_XXxBF4ZMQZKMuX_KpFQY&e=AT2Mfpa0WejazUVmwqbQ5clQOJkFMdktiGUrECJraAX1_3IUb75arTEkOBfOWpz7YRWKqKdBGticiXThQW2WZ9YPibvgpt3jmIvaLw" target="_blank"><i class="fa-regular fa-hard-drive"></i></a>
+                    <a href="https://www.linkedin.com/in/andrew-ge-058aab2a7/" target="_blank"><i class="fa-brands fa-linkedin"></i></a>
+                    <i class="fa-regular fa-envelope"></i>
+                </div>
+            </nav>
+            
+            <i class="fa-solid fa-bars" onclick=showSideBar()></i>
+            <i class="fa-solid fa-x" onclick=closeSideBar()></i>
+            
+            <div class="socials">
+                <a href="https://instagram.com/andrewgephoto" target="_blank"><i class="fa-brands fa-instagram"></i></a>
+                <a href="https://l.instagram.com/?u=https%3A%2F%2Fdrive.google.com%2Fdrive%2Ffolders%2F15vSV-pzunE8_XXxBF4ZMQZKMuX_KpFQY&e=AT2Mfpa0WejazUVmwqbQ5clQOJkFMdktiGUrECJraAX1_3IUb75arTEkOBfOWpz7YRWKqKdBGticiXThQW2WZ9YPibvgpt3jmIvaLw" target="_blank"><i class="fa-regular fa-hard-drive"></i></a>
+                <a href="https://www.linkedin.com/in/andrew-ge-058aab2a7/" target="_blank"><i class="fa-brands fa-linkedin"></i></a>
+                <i class="fa-regular fa-envelope"></i>
+            </div>
+        </header>
+        
+        <div class="page gallery">
+            <div class="grid" id="gallerycontainer">
+                <!-- <div class="grid-item">
+                    <img src="https://ik.imagekit.io/64c35uuyg/tr:w-600/1.jpg" alt="">
+                </div>
+                <div class="grid-item grid-item--width2">
+                    <img src="https://ik.imagekit.io/64c35uuyg/tr:w-600/2.jpg" alt="">
+                </div>
+                <div class="grid-item">
+                    <img src="https://ik.imagekit.io/64c35uuyg/tr:w-600/3.jpg" alt="">
+                </div>
+                <div class="grid-item">
+                    <img src="https://ik.imagekit.io/64c35uuyg/tr:w-600/4.jpg" alt="">
+                </div>
+                <div class="grid-item grid-item--width2">
+                    <img src="https://ik.imagekit.io/64c35uuyg/tr:w-600/5.jpg" alt="">
+                </div>
+                <div class="grid-item">
+                    <img src="https://ik.imagekit.io/64c35uuyg/tr:w-600/6.jpg" alt="">
+                </div>
+                <div class="grid-item">
+                    <img src="https://ik.imagekit.io/64c35uuyg/tr:w-600/7.jpg" alt="">
+                </div>
+                <div class="grid-item">
+                    <img src="https://ik.imagekit.io/64c35uuyg/tr:w-600/8.jpg" alt="">
+                </div>
+                <div class="grid-item">
+                    <img src="https://ik.imagekit.io/64c35uuyg/tr:w-600/9.jpg" alt="">
+                </div>
+                <div class="grid-item">
+                    <img src="https://ik.imagekit.io/64c35uuyg/tr:w-600/10.jpg" alt="">
+                </div>
+                <div class="grid-item">
+                    <img src="https://ik.imagekit.io/64c35uuyg/tr:w-600/11.jpg" alt="">
+                </div>
+                <div class="grid-item">
+                    <img src="https://ik.imagekit.io/64c35uuyg/tr:w-600/12.jpg" alt="">
+                </div>
+                <div class="grid-item">
+                    <img src="https://ik.imagekit.io/64c35uuyg/tr:w-600/13.jpg" alt="">
+                </div>
+                <div class="grid-item">
+                    <img src="https://ik.imagekit.io/64c35uuyg/tr:w-600/14.jpg" alt="">
+                </div>
+                <div class="grid-item">
+                    <img src="https://ik.imagekit.io/64c35uuyg/tr:w-600/15.jpg" alt="">
+                </div>
+                <div class="grid-item">
+                    <img src="https://ik.imagekit.io/64c35uuyg/tr:w-600/16.jpg" alt="">
+                </div>
+                <div class="grid-item">
+                    <img src="https://ik.imagekit.io/64c35uuyg/tr:w-600/17.jpg" alt="">
+                </div> -->
+            </div>
+        </div>
+    </div>
+    <section class="page about" id="about">
+        <article>
+            
+            <div class="intro">
+                <h2>Hi, I'm Andrew</h2>
+                <p>I'm a current sophomore at Belmont High School in Massachusetts, interested in shooting sports, streets, and portraits. I aim to capture moments of  intensity and emotion, such as the bench of a basketball team celebrating after a game typing shot, or volleyball players falling to the ground after winning a set. I'd love hearing from you, so feel free to contact me on whatevers convenient</p>
+                <button>Download CV</button>
+            </div>
+            <div class="img">
+                <img src="img/cover.jpg" alt="">
+            </div>
+        </article>
+    </section>
+    <section class="page design-section" id="experience">
+        <div class="timeline">
+            <div class="timeline-empty">
+                <h1>2023</h1>
+            </div>
+            <div class="timeline-middle">
+                <div class="timeline-circle"></div>
+            </div>
+                <div class="timeline-component timeline-content">
+                    <h3>HTML</h3>
+                    <p>Some Text</p>
+                </div>
+                <div class="timeline-component timeline-content">
+                    <h3>CSS</h3>
+                    <p>Some Text.</p>
+                </div>
+                <div class="timeline-middle">
+                    <div class="timeline-circle"></div>
+                </div>
+                <div class="timeline-empty">
+                    <h1>2023</h1>
+                </div>
+
+                <div class="timeline-empty">
+                    <h1>2024</h1>
+                </div>
+
+                <div class="timeline-middle">
+                    <div class="timeline-circle"></div>
+                </div>
+                <div class=" timeline-component timeline-content">
+                    <h3>Javascript</h3>
+                    <p>Some Text.</p>
+                </div>
+
+                
+
+                
+                <div class=" timeline-component timeline-content">
+                    <h3>Javascript</h3>
+                    <p>Some Text.</p>
+                </div>
+                <div class="timeline-middle">
+                    <div class="timeline-circle"></div>
+                </div>
+                <div class="timeline-empty">
+                    <h1>2024</h1>
+                </div>
+
+                <div class="timeline-empty">
+                    <h1>2024</h1>
+                </div>
+
+                <div class="timeline-middle">
+                    <div class="timeline-circle"></div>
+                </div>
+                <div class=" timeline-component timeline-content">
+                    <h3>Javascript</h3>
+                    <p>Some Text.</p>
+                </div>
+                
+            </div>
+        </div> 
+    </section>
+    <script src="app.js"></script>
+    <script src="https://unpkg.com/imagesloaded@5/imagesloaded.pkgd.min.js"></script>
+    <script src="https://unpkg.com/masonry-layout@4/dist/masonry.pkgd.min.js"></script>
+    <script>
+        var elem = document.querySelector('.grid');
+
+        imagesLoaded( elem, function() {
+            var msnry = new Masonry( elem, {
+                itemSelector: '.grid-item',
+                isFitWidth: true
+            });
+        });
+    </script>
+</body>
+</html>
